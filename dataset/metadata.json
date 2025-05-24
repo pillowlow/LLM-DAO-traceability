@@ -1,0 +1,8 @@
+{
+    "author": "Alice",
+    "task": "text classification",
+    "license": "CC-BY 4.0",
+    "description": "A 5-example labeled dataset used to demonstrate DAO-based data approval for LLM training.",
+    "sha256": "a9682d2d2f0c3760cf3bfda81421a4babb37f8def6b89029aa09fc5c93fabad3"
+  }
+  
