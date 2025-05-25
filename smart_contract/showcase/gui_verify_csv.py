@@ -21,7 +21,7 @@ with open("contract_abi.json", "r") as f:
 w3 = Web3(Web3.HTTPProvider(SEPOLIA_URL))
 contract = w3.eth.contract(address=CONTRACT_ADDRESS, abi=CONTRACT_ABI)
 
-DATASET_DIR = "..\dataset"
+DATASET_DIR = "..\..\dataset"
 
 # === Helper Functions ===
 def hash_csv(file_path):
