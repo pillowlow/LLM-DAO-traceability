@@ -35,3 +35,36 @@ LLM-DAO-traceability/
 └── .env # Contains private key and RPC settings
 
 ```
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone the repository and install dependencies
+
+```bash
+cd LLM-DAO-traceability/showcase
+pip install -r requirements.txt
+```
+### 2. Prepare .env in the root or showcase/ folder
+```
+PRIVATE_KEY=your_private_key_here
+ACCOUNT_ADDRESS=0xYourWalletAddress
+SEPOLIA_RPC_URL=https://eth-sepolia.g.alchemy.com/v2/your_api_key
+```
+💡 Make sure your MetaMask wallet has Sepolia testnet ETH!
+
+
+### 🧪 Run the GUIs
+```bash
+# Propose a dataset
+python showcase/gui_propose.py
+
+# Approve datasets (for owner)
+python showcase/gui_approve.py
+
+# Verify all CSVs in dataset/
+python showcase/gui_verify_csv.py
+```
+
+(the verifying csv should be in dataset directory)
